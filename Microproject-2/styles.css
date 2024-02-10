@@ -1,0 +1,235 @@
+header{
+    height: 80px;
+    width: 100vw;
+    background-color: #6F6AF7;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    z-index: 1000;
+}
+.companyName{
+    margin-left: 40px;
+}
+.companyName h2{
+    color: #ffffff;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 25px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.listItems{
+    height: 40px;
+    width: 500px;
+   
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.listItems>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'DM Sans', sans-serif;
+    margin-right: 20px;
+    margin-left: -10px;
+    margin-top: 15px;
+    color: white;
+}
+#downArrow{
+    margin-left: 5px;
+    display: inline-block;
+    transform: scale(0.7) rotate(90deg);
+    
+}
+.searchBar>input{
+    height: 30px; 
+    width: 250px;
+    margin-top: 25px;
+    background-color: white;
+    margin-left: 200px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+#searchPng{
+    height:15px;
+    width: 15px;
+    margin-left: -25px;
+    margin-bottom: -3px;
+}
+
+#vector{
+    height: 30px;
+    width: 30px;
+    margin-top: 22.5px;
+    margin-left: 50px;
+  
+}
+Section{
+    margin-left: 90px;
+    margin-right: 10px;
+
+    padding-top: 10%;
+}
+.rowone{
+    display: flex;
+    justify-content: space-between;
+}
+#Image-1{
+    width: 400px;
+    height: 470px;
+    border-radius: 20px;
+    margin-left: 20%;
+
+}
+.greyBoard{
+     background: linear-gradient(0deg, #E5D8FF, #E5D8FF),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+     padding: 20px;
+     border-radius: 20px;
+     border: 2px ;
+     margin-top: 20px;
+     height: 380px;
+     width: 700px;
+     font-size: 22px;
+     color: #6F7373;
+}
+.rowtwo{
+    display: flex;
+    margin-top: 5%;
+    margin-right: 4%;
+    justify-content:space-evenly;
+}
+.rowtwo-one{
+    background-color: #929DFF;
+    height: 100px;
+    width: 200px;
+    border-radius: 11px;
+    font-family:  'DM Sans', sans-serif;;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 30px; 
+}
+.rowtwo-two{
+    background-color: #734CF2;
+    height: 100px;
+    width: 200px;
+    border-radius: 11px;
+    font-family:  'DM Sans', sans-serif;;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 30px; 
+}
+.rowtwo-three{
+    background-color: #D288FF;
+    height: 100px;
+    width: 200px;
+    border-radius: 11px;
+    font-family:  'DM Sans', sans-serif;;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 30px; 
+}
+.rowtwo-four{
+    background-color: #000000;
+    height: 100px;
+    width: 200px;
+    border-radius: 11px;
+    font-family:  'DM Sans', sans-serif;;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 30px; 
+}
+.rowthree{
+    display: flex;
+    margin-top: 5%;
+    margin-right: 4%;
+    margin-left: 5%;
+    background-color: #483EFF;
+    border-radius: 21px;
+    height: 400px;
+    width: 1200px;
+}
+.rowthree-one {
+    height: 330px;
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 54px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+
+
+}
+.RT-O-O{
+    height: 60px;
+    width:250px;
+    background: rgba(188, 224, 246, 1);
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    border-radius: 10px;
+    text-align: center;
+}
+.RT-O-T{
+    height: 60px;
+    width:250px;
+    border: solid #faf8f8 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+.rowthree-two{
+    background: white;
+    margin: 50px;
+    border-radius: 10px;
+    width: 1100px;
+    height:330px;
+    padding-left: 3%;
+}
+.rowthree-two h1{
+    margin-left: 3%;
+}
+.rowthree-two ul li{
+    text-decoration: none;
+    list-style:  none;
+    line-height: 40px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    margin-left: 600px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+#floatingBtn{
+    margin-left: 90%;  
+}
+.floatingBtn>img{
+    height: 130px;
+    width: 130px;
+    z-index: 1px;
+    position: fixed;
+    margin-top: -680px;
+    
+}
+.socialMediaIcon>img{
+    height: 180px;
+    width: 60px;
+    left: 95%;
+    float: right;
+    position: sticky;
+    top: 130px;
+}
